@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 16a831ee00b3a1b4d97bc57e18988b5e
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: yisheng(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group2_polySurface43
+      parentName: yisheng(Clone)
+      position: {x: -0.53073907, y: 1.3582537, z: -1.3304816}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface96
+      parentName: group2_polySurface43
+      position: {x: 0.53073907, y: 2.7698858, z: 1.343644}
+      rotation: {x: 0.98261, y: -0, z: -0, w: 0.18568175}
+      scale: {x: 1.1600667, y: 1.1600667, z: 1.1600667}
+    - name: polySurface98
+      parentName: polySurface96
+      position: {x: -0, y: -1.9709094, z: -0.013162527}
+      rotation: {x: -0.9286671, y: -0, z: -0, w: 0.3709143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface100
+      parentName: polySurface98
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group13
+      parentName: polySurface100
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group26
+      parentName: group13
+      position: {x: -0, y: 1.8957226, z: -0.0022745943}
+      rotation: {x: 0.92660344, y: -0, z: -0, w: 0.3760399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group29
+      parentName: group26
+      position: {x: -0, y: -1.8957226, z: 0.0022745943}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: group37
+      parentName: group29
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000014901159, y: 0.00037094945, z: -0.69591236, w: 0.7181267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group57
+      parentName: group37
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface149
+      parentName: group57
+      position: {x: 0.09222889, y: -4.2671924, z: -0.0022745943}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: group58
+      parentName: group37
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: polySurface149 1
+      parentName: group58
+      position: {x: 0.09222889, y: -4.2671924, z: -0.0022745943}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: group24
+      parentName: group2_polySurface43
+      position: {x: 0.53073907, y: -1.3582537, z: 1.3304816}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface105
+      parentName: group24
+      position: {x: -0, y: 4.202447, z: 0.008144763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2796681, y: 1.2796681, z: 1.2796681}
+    - name: transform64
+      parentName: polySurface105
+      position: {x: -0, y: -2.0610645, z: -0.01031868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group25 1
+      parentName: group2_polySurface43
+      position: {x: 0.53073907, y: -1.3582537, z: 1.3304816}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: polySurface105 1
+      parentName: group25 1
+      position: {x: -0, y: 4.202447, z: 0.008144763}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2796681, y: 1.2796681, z: 1.2796681}
+    - name: transform65
+      parentName: polySurface105 1
+      position: {x: -0, y: -2.0610645, z: -0.01031868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group20
+      parentName: yisheng(Clone)
+      position: {x: -0, y: 4.7805243, z: -0.08953932}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: group19
+      parentName: group20
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group40
+      parentName: group19
+      position: {x: -0, y: -5.7181387, z: 0.0601476}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9287976, y: 0.9287976, z: 0.9287976}
+    - name: group42
+      parentName: group40
+      position: {x: -0, y: -2.5970984, z: 0.15638931}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group47
+      parentName: group42
+      position: {x: -0, y: 4.448524, z: -0.12358493}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface155
+      parentName: group47
+      position: {x: -0.30675206, y: -3.8596215, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface156
+      parentName: group47
+      position: {x: 0.30675206, y: -3.8596215, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0.056373823, z: -0.6156316, w: 0.78601515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface147
+      parentName: group42
+      position: {x: -0, y: -1.8451513, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface152
+      parentName: group42
+      position: {x: -0, y: -1.8451513, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface153
+      parentName: group42
+      position: {x: -0, y: 0.68432784, z: -0.19426689}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group25
+      parentName: yisheng(Clone)
+      position: {x: -0.0038093335, y: -2.8921502, z: 0.007726648}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.7554382, y: 0.7554382, z: 0.7554382}
+    - name: polySurface137
+      parentName: yisheng(Clone)
+      position: {x: -7.105427e-17, y: -1.1277124, z: 0.0116817495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group39
+      parentName: polySurface137
+      position: {x: -0, y: -4.370634, z: 0.0020013524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group55
+      parentName: group39
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface150
+      parentName: group55
+      position: {x: -0, y: -1.6510463, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group56
+      parentName: group39
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: polySurface150 1
+      parentName: group56
+      position: {x: -0, y: -1.6510463, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group54
+      parentName: yisheng(Clone)
+      position: {x: -7.105427e-17, y: -2.8209965, z: 0.018419823}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: yisheng_Group286
+      parentName: yisheng(Clone)
+      position: {x: -0, y: -2.434999, z: -0.01994259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube12
+      parentName: yisheng(Clone)
+      position: {x: -0, y: -2.3371444, z: -0.028216543}
+      rotation: {x: -0.18661733, y: 0, z: -0, w: 0.98243266}
+      scale: {x: 30.605974, y: 21.707802, z: 32.211487}
+    - name: pCylinder2
+      parentName: yisheng(Clone)
+      position: {x: 0.000000020572582, y: -2.7527585, z: -0.00000003085887}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 17.257532, y: 22.342072, z: 17.257532}
+    - name: polySurface154
+      parentName: yisheng(Clone)
+      position: {x: -0, y: -1.6212327, z: 0.0024403178}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube13
+      parentName: yisheng(Clone)
+      position: {x: -0, y: -2.037165, z: 0.18304677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.0891705, y: 16.250774, z: 4.4899607}
+    - name: transform75
+      parentName: pCube13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube14
+      parentName: yisheng(Clone)
+      position: {x: -0, y: -2.037165, z: 0.18304677}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 5.0891705, y: 16.250774, z: 4.4899607}
+    - name: transform74
+      parentName: pCube14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube15
+      parentName: yisheng(Clone)
+      position: {x: -0, y: -2.1255493, z: 0.057522964}
+      rotation: {x: -0.19724406, y: 0, z: -0, w: 0.9803544}
+      scale: {x: 0.88892865, y: 0.88892865, z: 0.88892865}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

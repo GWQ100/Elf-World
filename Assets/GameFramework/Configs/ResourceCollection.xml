@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Entities/Cube" LoadType="0" Packed="False" />
+      <Resource Name="Meshs/kuliou" LoadType="0" Packed="False" />
+      <Resource Name="Meshs/shixianggui" LoadType="0" Packed="False" />
+      <Resource Name="Meshs/yisheng" LoadType="0" Packed="False" />
+      <Resource Name="Meshs/zise" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/GameLauncher" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/GameMain" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="16a831ee00b3a1b4d97bc57e18988b5e" ResourceName="Meshs/yisheng" />
+      <Asset Guid="382d08a8079347a4390c736d023bf38e" ResourceName="Scenes/GameMain" />
+      <Asset Guid="9cf8a0d3e68463442b4a4fa55e1991b8" ResourceName="Entities/Cube" />
+      <Asset Guid="b3f80fe21e09d814c90e9fdd6de0b737" ResourceName="Meshs/kuliou" />
+      <Asset Guid="c71c7e79a19b0c5438be63e8d972d36a" ResourceName="Meshs/zise" />
+      <Asset Guid="ca3eb94a8e79cef438995f9b15efe906" ResourceName="Scenes/GameLauncher" />
+      <Asset Guid="e1e6cdda462952b4ca8f082a8be8a5a4" ResourceName="Meshs/shixianggui" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>

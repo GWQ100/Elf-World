@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: b3f80fe21e09d814c90e9fdd6de0b737
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: kuliou(Clone)
+      parentName: 
+      position: {x: 1.1170235, y: -1.105324, z: -0.03758004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface78
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface53
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: pSphere1
+      parentName: kuliou(Clone)
+      position: {x: -0.46990082, y: -0.0790744, z: -0.0039764377}
+      rotation: {x: -0.116793714, y: -0.032589104, z: 0.43943885, w: 0.89005095}
+      scale: {x: 1.0577532, y: 1.0577532, z: 1.0577532}
+    - name: ZBrush_defualt_group
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface107
+      parentName: kuliou(Clone)
+      position: {x: -0.052017417, y: -0.39247635, z: 0.0060570706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1600667, y: 1.1600667, z: 1.1600667}
+    - name: pSphere4
+      parentName: kuliou(Clone)
+      position: {x: 0.47352278, y: -0.06717896, z: 0.092729025}
+      rotation: {x: 0.37727162, y: 0.9122232, z: 0.091380574, w: 0.13101354}
+      scale: {x: 0.82377654, y: 0.82377654, z: -0.82377654}
+    - name: pSphere3
+      parentName: kuliou(Clone)
+      position: {x: 0.48280594, y: -0.076004945, z: 0.060076606}
+      rotation: {x: 0.440603, y: 0.8968691, z: -0.038174797, w: 0.006129996}
+      scale: {x: 0.82377654, y: 0.82377654, z: -0.82377654}
+    - name: polySurface113
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -4.432712, z: 0.03758004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface99
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -0.06721276, z: 0.04926179}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface142
+      parentName: kuliou(Clone)
+      position: {x: 0.052017417, y: -0.39247635, z: 0.0060570706}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1.1600667, y: 1.1600667, z: -1.1600667}
+    - name: group17
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -0.10431652, z: 0.055999864}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere5
+      parentName: kuliou(Clone)
+      position: {x: -0.40123507, y: -0.09788726, z: 0.1256079}
+      rotation: {x: 0.518216, y: 0.27069545, z: 0.33153656, w: 0.74044555}
+      scale: {x: 1.0577532, y: 1.0577532, z: 1.0577532}
+    - name: pSphere2
+      parentName: kuliou(Clone)
+      position: {x: -0.47581595, y: -0.07511871, z: 0.028048363}
+      rotation: {x: -0.116793714, y: -0.032589104, z: 0.43943885, w: 0.89005095}
+      scale: {x: 1.0577532, y: 1.0577532, z: 1.0577532}
+    - name: pSphere6
+      parentName: kuliou(Clone)
+      position: {x: -0.4781504, y: -0.07124633, z: 0.060076606}
+      rotation: {x: -0.038174797, y: 0.006129996, z: 0.440603, w: 0.8968691}
+      scale: {x: 1.0577532, y: 1.0577532, z: 1.0577532}
+    - name: pSphere7
+      parentName: kuliou(Clone)
+      position: {x: -0.4672134, y: -0.06581604, z: 0.092729025}
+      rotation: {x: 0.091380574, y: 0.13101354, z: 0.37727162, w: 0.9122232}
+      scale: {x: 1.0577532, y: 1.0577532, z: 1.0577532}
+    - name: polySurface74
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface77
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface79
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface51
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface75
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface92
+      parentName: kuliou(Clone)
+      position: {x: 0.000000036750748, y: 0.2803392, z: -0.013557481}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface80
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface76
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -2.1542296, z: 0.0343028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: polySurface81
+      parentName: kuliou(Clone)
+      position: {x: -0.1488857, y: 0.2978865, z: 0.1937551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9633989, y: 0.9633989, z: 0.9633989}
+    - name: pSphere8
+      parentName: kuliou(Clone)
+      position: {x: 0.47445846, y: -0.08169128, z: -0.0039764377}
+      rotation: {x: 0.43943885, y: 0.89005095, z: -0.116793714, w: -0.032589104}
+      scale: {x: 0.82377654, y: 0.82377654, z: -0.82377654}
+    - name: pSphere9
+      parentName: kuliou(Clone)
+      position: {x: 0.40538394, y: -0.10527252, z: 0.12792462}
+      rotation: {x: 0.33153656, y: 0.74044555, z: 0.518216, w: 0.27069545}
+      scale: {x: 0.82377654, y: 0.82377654, z: -0.82377654}
+    - name: pSphere10
+      parentName: kuliou(Clone)
+      position: {x: 0.48034358, y: -0.07817657, z: 0.028048363}
+      rotation: {x: 0.43943885, y: 0.89005095, z: -0.116793714, w: -0.032589104}
+      scale: {x: 0.82377654, y: 0.82377654, z: -0.82377654}
+    - name: polySurface114
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -4.432712, z: 0.03758004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube8
+      parentName: kuliou(Clone)
+      position: {x: -0.22137693, y: -0.0072946167, z: 0.034088183}
+      rotation: {x: 0.50453615, y: 0.49542233, z: -0.50453615, w: 0.49542233}
+      scale: {x: 0.045156624, y: 0.045156624, z: -0.045156624}
+    - name: pCube10
+      parentName: kuliou(Clone)
+      position: {x: 0.22137693, y: -0.0072946167, z: 0.03408819}
+      rotation: {x: 0.50453615, y: -0.49542233, z: -0.50453615, w: -0.49542233}
+      scale: {x: 0.045156624, y: 0.045156624, z: 0.045156624}
+    - name: pCube9
+      parentName: kuliou(Clone)
+      position: {x: -0.38113338, y: -0.025697326, z: 0.039729092}
+      rotation: {x: 0.3944916, y: 0.5971122, z: -0.42223755, w: 0.5563713}
+      scale: {x: 0.048019588, y: 0.048019588, z: -0.048019588}
+    - name: pCube1
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -0.05328369, z: 0.124866046}
+      rotation: {x: -0.2774246, y: 0, z: -0, w: 0.9607474}
+      scale: {x: 7.2119436, y: 7.2119436, z: 7.2119436}
+    - name: pCube11
+      parentName: kuliou(Clone)
+      position: {x: 0.38113338, y: -0.025697326, z: 0.0397291}
+      rotation: {x: -0.42223755, y: 0.5563713, z: 0.3944916, w: 0.5971122}
+      scale: {x: 0.048019588, y: 0.048019588, z: 0.048019588}
+    - name: polySurface52
+      parentName: kuliou(Clone)
+      position: {x: -4.2632563e-16, y: 0.27211106, z: -0.077710554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8948026, y: 0.8948026, z: 0.8948026}
+    - name: group51
+      parentName: kuliou(Clone)
+      position: {x: 0.000000004266751, y: 0.58128226, z: -0.061596554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface164
+      parentName: group51
+      position: {x: 0.018403228, y: -0.034551848, z: -0.06723416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8948026, y: 0.8948026, z: 0.8948026}
+    - name: polySurface165
+      parentName: group51
+      position: {x: 0.018403228, y: 0.044505462, z: -0.096589595}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8948026, y: 0.8948026, z: 0.8948026}
+    - name: group52
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -4.432712, z: 0.03758004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface60
+      parentName: group52
+      position: {x: -0.27448252, y: 4.6134615, z: -0.0022397565}
+      rotation: {x: 0.0038131278, y: 0.067341626, z: -0.009737905, w: 0.9976752}
+      scale: {x: 0.6806611, y: 0.6806611, z: 0.6806611}
+    - name: polySurface63
+      parentName: group52
+      position: {x: -0.34509483, y: 4.5920143, z: -0.021252755}
+      rotation: {x: 0.08540931, y: -0.11045135, z: 0.03256753, w: 0.9896692}
+      scale: {x: 0.8948026, y: 0.8948026, z: 0.8948026}
+    - name: group53
+      parentName: kuliou(Clone)
+      position: {x: -0, y: -4.432712, z: 0.03758004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: polySurface60 1
+      parentName: group53
+      position: {x: -0.27448252, y: 4.6134615, z: -0.0022397565}
+      rotation: {x: 0.0038131278, y: 0.067341626, z: -0.009737905, w: 0.9976752}
+      scale: {x: 0.6806611, y: 0.6806611, z: 0.6806611}
+    - name: polySurface63 1
+      parentName: group53
+      position: {x: -0.34509483, y: 4.5920143, z: -0.021252755}
+      rotation: {x: 0.08540931, y: -0.11045135, z: 0.03256753, w: 0.9896692}
+      scale: {x: 0.8948026, y: 0.8948026, z: 0.8948026}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
