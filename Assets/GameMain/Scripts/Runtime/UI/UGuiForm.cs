@@ -48,7 +48,8 @@ namespace ElfWorld
 
             if (ignoreFade)
             {
-                GameEntry.UI.CloseUIForm(this);
+                //GameEntry.UI.CloseUIForm(this); //走配置表
+                GameEntry.UI.CloseUIForm(this.UIForm);
             }
             else
             {
@@ -58,7 +59,13 @@ namespace ElfWorld
 
         public void PlayUISound(int uiSoundId)
         {
-            GameEntry.Sound.PlayUISound(uiSoundId);
+            //GameEntry.Sound.PlayUISound(uiSoundId);//走配置表
+            //Debug.Log("暂时不播放音乐");
+        }
+
+        public void PlayUISound(string soundAssetName,string soundGroupName)
+        {
+            GameEntry.Sound.PlaySound(soundAssetName, soundGroupName);
         }
 
         public static void SetMainFont(Font mainFont)
@@ -215,7 +222,8 @@ namespace ElfWorld
         private IEnumerator CloseCo(float duration)
         {
             yield return m_CanvasGroup.FadeToAlpha(0f, duration);
-            GameEntry.UI.CloseUIForm(this);
+            //GameEntry.UI.CloseUIForm(this); //走扩展配置表
+            GameEntry.UI.CloseUIForm(this.UIForm);
         }
     }
 }

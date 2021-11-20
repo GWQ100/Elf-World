@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameMain/Scenes/GameMain.unity
     guid: 382d08a8079347a4390c736d023bf38e
+  - enabled: 1
+    path: Assets/GameMain/Scenes/GameCombat.unity
+    guid: 5324a33e4930abb4687ec59c20267107
   m_configObjects: {}

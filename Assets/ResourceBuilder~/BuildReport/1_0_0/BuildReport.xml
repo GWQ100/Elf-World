@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>Elf World</ProductName>
+      <CompanyName>Innohive</CompanyName>
+      <GameIdentifier>com.Innohive.ElfWorld</GameIdentifier>
+      <GameFrameworkVersion>2021.05.31</GameFrameworkVersion>
+      <UnityVersion>2019.4.6f1</UnityVersion>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>0</InternalResourceVersion>
+      <Platforms>Android</Platforms>
+      <AssetBundleCompression>LZ4</AssetBundleCompression>
+      <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
+      <AdditionalCompressionSelected>True</AdditionalCompressionSelected>
+      <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
+      <BuildEventHandlerTypeName>
+      </BuildEventHandlerTypeName>
+      <OutputDirectory>F:/GWQWork/UnityProject/Elf World/Assets/ResourceBuilder~</OutputDirectory>
+      <BuildAssetBundleOptions>DeterministicAssetBundle, ChunkBasedCompression</BuildAssetBundleOptions>
+    </Summary>
+    <Resources Count="4">
+      <Resource Name="Entities/Pet" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="9cf8a0d3e68463442b4a4fa55e1991b8" Name="Assets/GameMain/Entities/Pet.prefab" Length="2684" HashCode="14742539" />
+        </Assets>
+        <Codes>
+          <Android Length="59287" HashCode="-1646377759" CompressedLength="48652" CompressedHashCode="-941028459" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/GameCombat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="5324a33e4930abb4687ec59c20267107" Name="Assets/GameMain/Scenes/GameCombat.unity" Length="10295" HashCode="634153492" />
+        </Assets>
+        <Codes>
+          <Android Length="68922" HashCode="-1272179631" CompressedLength="56702" CompressedHashCode="-763128943" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/GameMain" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="382d08a8079347a4390c736d023bf38e" Name="Assets/GameMain/Scenes/GameMain.unity" Length="17342" HashCode="1687771806">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Entities/Pet.prefab" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Android Length="71393" HashCode="1181394555" CompressedLength="58733" CompressedHashCode="81239740" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UIForms/MainForm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0dd12262a735f8e4483f998fd7c92858" Name="Assets/GameMain/UI/UIForms/MainForm.prefab" Length="8254" HashCode="445078978" />
+        </Assets>
+        <Codes>
+          <Android Length="9513" HashCode="-462673031" CompressedLength="7696" CompressedHashCode="73441434" />
+        </Codes>
+      </Resource>
+    </Resources>
+  </BuildReport>
+</UnityGameFramework>

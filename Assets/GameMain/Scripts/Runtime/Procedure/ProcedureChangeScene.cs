@@ -1,6 +1,7 @@
 ﻿
 using GameFramework.DataTable;
 using GameFramework.Event;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
@@ -8,9 +9,11 @@ namespace ElfWorld
 {
     public class ProcedureChangeScene : ProcedureBase
     {
-        private const int MenuSceneId = 1;
+        //private const int MenuSceneId = 1;
 
-        private bool m_ChangeToMenu = false;
+
+        private string m_SceneName;
+        private bool m_ChangeToMainfalse;
         private bool m_IsChangeSceneComplete = false;
         private int m_BackgroundMusicId = 0;
 
@@ -51,7 +54,8 @@ namespace ElfWorld
             // 还原游戏速度
             GameEntry.Base.ResetNormalGameSpeed();
 
-            string sceneName = procedureOwner.GetData<VarString>("NextSceneId");
+            m_SceneName = procedureOwner.GetData<VarString>("NextSceneId");
+
             //m_ChangeToMenu = sceneId == MenuSceneId;
             //IDataTable<DRScene> dtScene = GameEntry.DataTable.GetDataTable<DRScene>();
             //DRScene drScene = dtScene.GetDataRow(sceneId);
@@ -61,7 +65,7 @@ namespace ElfWorld
             //    return;
             //}
 
-            GameEntry.Scene.LoadScene(AssetUtility.GetSceneAsset(sceneName), Constant.AssetPriority.SceneAsset, this);
+            GameEntry.Scene.LoadScene(AssetUtility.GetSceneAsset(m_SceneName), Constant.AssetPriority.SceneAsset, this);
 
            
             //m_BackgroundMusicId = drScene.BackgroundMusicId;
@@ -86,15 +90,16 @@ namespace ElfWorld
                 return;
             }
 
-            ChangeState<ProcedureMain>(procedureOwner);
-            //if (m_ChangeToMenu)
-            //{
-            //    ChangeState<ProcedureMenu>(procedureOwner);
-            //}
-            //else
-            //{
-            //    ChangeState<ProcedureMain>(procedureOwner);
-            //}
+            switch (m_SceneName)
+            {
+                case "GameMain":
+                    ChangeState<ProcedureMain>(procedureOwner);
+                    break;
+                case "GameCombat":
+                
+                    ChangeState<ProcedureCombal>(procedureOwner);
+                    break;
+            }
         }
 
         private void OnLoadSceneSuccess(object sender, GameEventArgs e)
@@ -109,7 +114,7 @@ namespace ElfWorld
 
             //if (m_BackgroundMusicId > 0)
             //{
-            //    GameEntry.Sound.PlayMusic(m_BackgroundMusicId);
+            //    GameEntry.Sound.PlayMusic(m_BackgroundMusicId); //播放场景音乐
             //}
 
             m_IsChangeSceneComplete = true;

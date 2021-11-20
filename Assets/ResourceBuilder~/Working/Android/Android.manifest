@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 64902590
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: entities/pet
+      Dependencies: {}
+    Info_1:
+      Name: scenes/gamecombat
+      Dependencies: {}
+    Info_2:
+      Name: scenes/gamemain
+      Dependencies:
+        Dependency_0: entities/pet
+    Info_3:
+      Name: ui/uiforms/mainform
+      Dependencies: {}
